@@ -1,7 +1,7 @@
 # ComfyUI-HDD-Seedance-Nodes 🤣
-
-这是一个专为 **Seedance 1.5 Pro** 视频生成模型设计的 ComfyUI 节点组。
-支持 **AutoDL** 环境，解决了内网穿透和 SSL 验证问题，真正做到即插即用！
+还只是一个测试过程，很多都不完善。。。。
+这是一个用来调用Seedance 1.5 Pro API的 ComfyUI 节点组。
+支持 **AutoDL** 环境，因为图片上传需要用到可以公网访问的URL，所以我在节点上增加了AutoDL的公网地址输入
 
 ## ✨ 功能特点
 
@@ -25,4 +25,5 @@
 ```bash
 cd ComfyUI/custom_nodes
 git clone [这里填你未来的Github仓库地址]
+
 pip install -r requirements.txt
